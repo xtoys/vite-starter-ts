@@ -4,9 +4,10 @@ import SvgIcon from '@/components/SvgIcon.vue'
 
 <template>
   <main>
-    <div class="px-4 py-6 sm:px-0">
+    <!-- <div class="px-4 py-6 sm:px-0"> -->
+    <div ui:p="x-4 y-6 sm:x-0">
       <div class="text-center">
-        <SvgIcon name="add" class="text-indigo-600 mx-auto h-60 w-auto"></SvgIcon>
+        <SvgIcon name="windicss" class="text-indigo-600 mx-auto h-60 w-auto"></SvgIcon>
         <h2 class="p-6 text-base text-indigo-600 font-semibold tracking-wide uppercase">
           congratulations
         </h2>
